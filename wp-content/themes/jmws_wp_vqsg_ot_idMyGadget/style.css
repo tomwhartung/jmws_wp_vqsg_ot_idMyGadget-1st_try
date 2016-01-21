@@ -1,0 +1,217 @@
+/* *
+ * Theme Name: IdMyGadget in Our Theme
+ * Theme URI: https://github.com/tomwhartung/jmws_wp_vqsg_ot_idMyGadget
+ * Author: Tom W. Hartung (building on what Jessica Neuman Beck and Matt Beck did)
+ * Author URI: http://www.tomwhartung.com
+ * Description: Adding Device Detection to "A WordPress theme for the WordPress Visual QuickStart site"
+ * Version: 1.0
+ * Tags: theme options, 2 column, simple, clean, widgets, fixed width
+ * Text Domain: jmws_wp_vqsg_ot_idMyGadget
+ * 
+ * This theme has been designed as an example for WordPress Visual QuickStart.
+   ==================================================
+ */
+
+body {
+    background: #aaa;
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a,
+a:visited {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover,
+a:active { text-decoration: underline }
+
+#header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+    #header h1 {
+        font-weight: 100;
+        letter-spacing: 2px;
+    }
+
+    #header h4 {
+        padding: 10px;
+        color: #333;
+        margin: 0;
+        font-weight: 100;
+        letter-spacing: 5px;
+    }
+
+#page {
+    width: 1024px;
+    margin: 0px auto;
+    color: #333;
+    background: #fff;
+    border-top: 20px solid red;
+}
+
+.sidebar {
+    width: 200px;
+    float: left;
+    display: block;
+    padding: 10px 15px;
+    font-size: 12px;
+    background: #eee;
+    border-top: 10px solid #f4f4f4;
+}
+
+    .sidebar a { font-weight: normal }
+
+    .sidebar ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .sidebar li a {
+        display: block;
+        padding: 5px 10px;
+        border-top: 1px dotted #fff;
+        border-bottom: 1px dotted #fff;
+        margin-top: -1px;
+        line-height: 18px;
+        letter-spacing: 1px;
+    }
+
+    .sidebar li a:hover {
+        background: #fff;
+        text-decoration: none;
+    }
+
+#content {
+    width: 700px;
+    margin-left: 25px;
+    padding: 10px 30px 20px 0;
+    float: left;
+}
+
+body.home .entry h2 { display: none }
+
+body.home .entry,
+entry-body p {
+    line-height: 21px;
+    margin: 0 0 10px 0;
+}
+
+a#front-page-order {
+    display: block;
+    width: 100%;
+    background: #f4f4f4;
+    padding: 10px;
+}
+
+.entry {
+    margin: 0 20px 10px 20px;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-top: 1px solid #eee;
+    float: left;
+}
+
+.inner {
+    margin: 0 20px 10px 20px;
+    padding: 10px 20px;
+    float: left;
+}
+
+.entry ul { margin: 0 0 0 10px }
+
+.entry-body img {
+    border: 1px solid #eee;
+    padding: 5px;
+    background: #f4f4f4;
+}
+
+.entry-body ol,
+.entry-body ul { margin: 0 }
+
+.entry-body li { padding: 0 0 10px 0 }
+
+#content dt {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+#content dd { margin: 0 }
+
+.post-metadata {
+    clear: both;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    background: #f4f4f4;
+    line-height: 18px;
+    padding: 10px 20px;
+    font-size: 12px;
+    float: left;
+    width: 100%;
+}
+
+    .post-metadata span.categories { display: block }
+
+body.home .post-metadata { display: none }
+
+div.navigation {
+    display: block;
+    clear: both;
+}
+
+div#nav-above,
+div#nav-below {
+    width: 100%;
+    height: 20px;
+}
+
+    div#nav-above a,
+    div#nav-below a {
+        color: #000;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: bold;
+        display: block;
+        margin: 20px 0;
+    }
+
+    div#nav-above a:hover,
+    div#nav-below a:hover {
+        color: #000;
+        text-decoration: underline;
+    }
+
+div.nav-previous { float: left }
+
+div.nav-next { float: right }
+
+.alignleft {
+    float: left;
+    margin: 0 20px 10px 0;
+}
+
+.alignright {
+    float: right;
+    margin: 0 0 10px 20px;
+}
+
+.wp-caption {
+    font-size: 11px;
+    color: #666;
+}
+
+#footer {
+    clear: both;
+    padding: 30px 0;
+    background: #eee;
+    border-top: 10px solid #ddd;
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
