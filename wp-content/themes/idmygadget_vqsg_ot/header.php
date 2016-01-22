@@ -51,5 +51,11 @@ $header_html = getHeaderHtml();
 			}
 		?>
 		<div class="debug">
-			<?php print $jmwsIdMyGadget->getSanityCheckString(); ?>
+			<p><?php print $jmwsIdMyGadget->getSanityCheckString(); ?></p>
+			<p>get_template_directory_uri(): <?php echo get_template_directory_uri() ?></p>
+			<p>get_stylesheet_directory(): <?php echo get_stylesheet_directory() ?></p>
+			<p>get_stylesheet_directory_uri(): <?php echo get_stylesheet_directory_uri() ?></p>
+			<p>get_theme_root(): <?php echo get_theme_root() ?></p>
+			<p>get_bloginfo('template_directory'): <?php echo get_bloginfo('template_directory'); ?></p>
+			get_bloginfo('template_directory');
 		</div> <!-- .debug -->
